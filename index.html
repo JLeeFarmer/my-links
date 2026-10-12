@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Link Dashboard</title>
+    <style>
+        /* This section makes the website look clean and modern */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+            margin: 0;
+        }
+
+        .profile-container {
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+            color: #111;
+        }
+
+        .bio {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        /* This turns ordinary text links into big, clickable buttons */
+        .link-button {
+            display: block;
+            background-color: #ffffff;
+            color: #24292e;
+            text-decoration: none;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.2s ease;
+            border: 1px solid #e1e4e8;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        /* This makes the buttons lift up slightly when you hover your mouse over them */
+        .link-button:hover {
+            background-color: #24292e;
+            color: #ffffff;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-container">
+        <!-- 1. EDIT YOUR NAME AND BIO HERE -->
+        <h1>Welcome to My Links</h1>
+        <p class="bio">Learning to code and exploring GitHub! Check out my favorite sites below.</p>
+
+        <!-- 2. EDIT YOUR BUTTON LINKS HERE -->
+        <!-- Change the text inside the > < brackets, and swap the https:// urls with your favorites -->
+        <a class="link-button" href="https://github.com" target="_blank">My GitHub Profile</a>
+        <a class="link-button" href="https://wikipedia.org" target="_blank">Favorite Reading Spot (Wikipedia)</a>
+        <a class="link-button" href="https://youtube.com" target="_blank">Where I Watch Videos (YouTube)</a>
+        <a class="link-button" href="https://freecodecamp.org" target="_blank">Where I Practice Coding</a>
+    </div>
+
+</body>
+</html>
